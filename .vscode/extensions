@@ -1,0 +1,5 @@
+# Language agnostic extensions
+# (the ones that should be default with vscode cause they're so important)
+vscodevim.vim
+donjayamanne.githistory
+Codeium.codeium
