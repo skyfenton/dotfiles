@@ -1,0 +1,18 @@
+[settings]
+disable_backends = ["aqua"]
+
+[tools]
+"github:cli/cli" = "latest"
+"github:jj-vcs/jj" = "latest"
+"github:watchexec/watchexec" = "latest"
+
+[tools."http:opencode"]
+version = "2.0.11"
+version_order = "semver"
+url = "https://opencode.ai/files/bin/{{version}}/opencode-linux-x64.tar.gz"
+
+[dotfiles]
+"~/.config/mise/config.toml" = { mode = "track" }
+#version_list_url = "https://api.github.com/repos/anomalyco/opencode/tags"
+#version_json_path = ".[].name"
+#version_regex = '^v\d+\.\d+\.\d+$'
