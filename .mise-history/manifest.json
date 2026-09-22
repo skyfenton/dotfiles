@@ -8,6 +8,12 @@
       "variants": []
     },
     {
+      "path": "home/.bash_profile",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
       "path": "home/.bashrc",
       "autosave": true,
       "encrypt": false,
