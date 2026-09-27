@@ -8,6 +8,9 @@ cargo.binstall = true
 rust = "latest"
 cargo-binstall = "latest"
 watchexec = "latest"
+"npm:@anthropic-ai/sandbox-runtime" = "latest"
+node = "26"
+"github:burntsushi/ripgrep" = "latest"
 
 [tools."http:opencode"]
 version = "2.0.18"
