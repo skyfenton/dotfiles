@@ -14,6 +14,7 @@ node = "26"
 "github:astral-sh/uv" = "latest"
 "pypi:git+https://github.com/aws/aws-cli.git" = "v2"
 "github:nolabs-ai/nono" = "latest"
+"github:stablyai/orca" = "latest"
 
 [tools."http:opencode"]
 version = "2.0.18"
