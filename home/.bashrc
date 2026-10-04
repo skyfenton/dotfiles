@@ -35,6 +35,6 @@ export PATH="$PATH:/var/home/sfenton/.local/share/JetBrains/Toolbox/scripts"
 # Sandbox opencode only if both srt and opencode exist
 if command -v srt >/dev/null 2>&1 && command -v opencode >/dev/null 2>&1; then
     opencode() {
-        srt run -- opencode "$@"
+        srt -s "~/.config/srt/.opencode-srt-settings.json" opencode "$@"
     }
 fi

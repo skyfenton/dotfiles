@@ -11,6 +11,8 @@ watchexec = "latest"
 "npm:@anthropic-ai/sandbox-runtime" = "latest"
 node = "26"
 "github:burntsushi/ripgrep" = "latest"
+"github:astral-sh/uv" = "latest"
+"pypi:git+https://github.com/aws/aws-cli.git" = "v2"
 
 [tools."http:opencode"]
 version = "2.0.18"
@@ -21,3 +23,4 @@ url = "https://opencode.ai/files/bin/{version}/opencode-linux-x64.tar.gz"
 "~/.bash_profile" = { mode = "track" }
 "~/.bashrc" = { mode = "track" }
 "~/.config/mise/config.toml" = { mode = "track" }
+"~/.config/srt/.opencode-srt-settings.json" = { mode = "track" }
