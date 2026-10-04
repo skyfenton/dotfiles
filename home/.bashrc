@@ -35,6 +35,7 @@ export PATH="$PATH:/var/home/sfenton/.local/share/JetBrains/Toolbox/scripts"
 # Sandbox opencode only if both srt and opencode exist
 if command -v nono >/dev/null 2>&1 && command -v opencode >/dev/null 2>&1; then
     opencode() {
-        nono run --profile nolabs-ai/opencode --allow-cwd -- opencode "$@"
+        echo "Running opencode with nono sandbox..."
+        nono run --silent --profile opencode-mise --allow-cwd -- opencode "$@"
     }
 fi
