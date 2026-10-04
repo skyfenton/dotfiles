@@ -27,3 +27,6 @@ url = "https://opencode.ai/files/bin/{version}/opencode-linux-x64.tar.gz"
 "~/.config/mise/config.toml" = { mode = "track" }
 "~/.config/nono/profiles" = { mode = "track" }
 "~/.config/srt/.opencode-srt-settings.json" = { mode = "track" }
+
+[bootstrap.packages]
+"brew-cask:zed" = "latest"
