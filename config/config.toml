@@ -13,6 +13,7 @@ node = "26"
 "github:burntsushi/ripgrep" = "latest"
 "github:astral-sh/uv" = "latest"
 "pypi:git+https://github.com/aws/aws-cli.git" = "v2"
+"github:nolabs-ai/nono" = "latest"
 
 [tools."http:opencode"]
 version = "2.0.18"

@@ -24,7 +24,7 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
-# Activate mise (only if it's installed and on PATH)
+# Activate mise (only if it's instaled and on PATH)
 if command -v mise >/dev/null 2>&1; then
     eval "$(mise activate bash)"
 fi
@@ -33,8 +33,8 @@ fi
 export PATH="$PATH:/var/home/sfenton/.local/share/JetBrains/Toolbox/scripts"
 
 # Sandbox opencode only if both srt and opencode exist
-if command -v srt >/dev/null 2>&1 && command -v opencode >/dev/null 2>&1; then
+if command -v nono >/dev/null 2>&1 && command -v opencode >/dev/null 2>&1; then
     opencode() {
-        srt -s "~/.config/srt/.opencode-srt-settings.json" opencode "$@"
+        nono run --profile nolabs-ai/opencode --allow-cwd -- opencode "$@"
     }
 fi
