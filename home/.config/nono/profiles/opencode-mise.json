@@ -1,0 +1,16 @@
+{
+  "extends": "nolabs-ai/opencode",
+  "meta": {
+    "name": "opencode-mise"
+  },
+  "groups": {
+    "include": []
+  },
+  "workdir": {
+    "access": "readwrite"
+  },
+  "filesystem": {
+    "allow": [],
+    "read": []
+  }
+}
