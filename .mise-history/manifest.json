@@ -32,6 +32,12 @@
       "variants": []
     },
     {
+      "path": "home/.config/opencode/skills",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
       "path": "home/.config/srt/.opencode-srt-settings.json",
       "autosave": true,
       "encrypt": false,

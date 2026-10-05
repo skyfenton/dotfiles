@@ -30,6 +30,7 @@ args = ["run", "--silent", "--profile", "opencode-mise", "--allow-cwd", "--", "o
 "~/.bashrc.d" = { mode = "track" }
 "~/.config/mise/config.toml" = { mode = "track" }
 "~/.config/nono/profiles" = { mode = "track" }
+"~/.config/opencode/skills" = { mode = "track" }
 "~/.config/srt/.opencode-srt-settings.json" = { mode = "track" }
 "~/.local/bin/opencode" = { mode = "track" }
 "~/.var/app/dev.zed.Zed/config/zed" = { mode = "track" }
