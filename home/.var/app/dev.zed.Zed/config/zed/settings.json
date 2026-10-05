@@ -16,14 +16,9 @@
     "allow_data_collection": "no"
   },
   "agent_servers": {
-    "OpenCode": {
+    "opencode": {
       "type": "custom",
-      "command": "/usr/bin/toolbox",
-      "args": [
-        "run",
-        "opencode",
-        "acp"
-      ]
+      "command": "opencode"
     }
   },
   "diff_view_style": "split",

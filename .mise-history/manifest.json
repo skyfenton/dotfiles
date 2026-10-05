@@ -32,6 +32,12 @@
       "variants": []
     },
     {
+      "path": "home/.local/bin/opencode",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
       "path": "home/.var/app/dev.zed.Zed/config/zed",
       "autosave": true,
       "encrypt": false,

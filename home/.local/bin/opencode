@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+if [[ ! -f /run/.toolboxenv ]]; then
+    exec toolbox run "$0" "$@"    # re-enter toolbox, run this same script
+fi
+
+exec nono run --silent --profile opencode-mise --allow-cwd -- opencode "$@"
