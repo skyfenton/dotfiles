@@ -8,6 +8,12 @@
       "variants": []
     },
     {
+      "path": "home/.agents/skills",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
       "path": "home/.bash_profile",
       "autosave": true,
       "encrypt": false,

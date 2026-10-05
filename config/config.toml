@@ -25,6 +25,7 @@ command = "nono"
 args = ["run", "--silent", "--profile", "opencode-mise", "--allow-cwd", "--", "opencode"]
 
 [dotfiles]
+"~/.agents/skills" = { mode = "track" }
 "~/.bash_profile" = { mode = "track" }
 "~/.bashrc" = { mode = "track" }
 "~/.bashrc.d" = { mode = "track" }
