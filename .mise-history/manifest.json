@@ -30,9 +30,17 @@
       "autosave": true,
       "encrypt": false,
       "variants": []
+    },
+    {
+      "path": "home/.var/app/dev.zed.Zed/config/zed",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
     }
   ],
   "exclude": [],
   "recipients": [],
-  "permissions": {}
+  "permissions": {
+    "home/.var/app/dev.zed.Zed/config/zed/settings.json": 384
+  }
 }

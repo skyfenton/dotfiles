@@ -1,0 +1,55 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "agent": {
+    "favorite_models": [],
+    "model_parameters": [],
+    "terminal_init_command": ""
+  },
+  "edit_predictions": {
+    "allow_data_collection": "no"
+  },
+  "agent_servers": {
+    "OpenCode": {
+      "type": "custom",
+      "command": "/usr/bin/toolbox",
+      "args": [
+        "run",
+        "opencode",
+        "acp"
+      ]
+    }
+  },
+  "diff_view_style": "split",
+  "cli_default_open_behavior": "new_window",
+  "terminal": {
+    "dock": "left"
+  },
+  "use_podman": true,
+  "language_models": {
+    "opencode": {
+      "show_go_models": false,
+      "show_zen_models": false
+    }
+  },
+  "telemetry": {
+    "diagnostics": true,
+    "metrics": false,
+    "anthropic_retention": false
+  },
+  "vim_mode": true,
+  "base_keymap": "VSCode",
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "One Dark",
+  },
+}

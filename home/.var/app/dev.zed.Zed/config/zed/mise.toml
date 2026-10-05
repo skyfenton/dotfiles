@@ -1,0 +1,6 @@
+[bootstrap.packages]
+"brew:zed" = "latest"
+"flatpak:dev.Dev.Zed" = "latest"
+"brew:dev.Dev.Zed" = "latest"
+"brew:Zed" = "latest"
+"brew-cask:zed" = "latest"
