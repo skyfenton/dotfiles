@@ -1,7 +1,23 @@
 #!/usr/bin/env bash
 
-if [[ ! -f /run/.toolboxenv ]]; then
-    exec toolbox run "$0" "$@"    # re-enter toolbox, run this same script
+# Launch opencode inside the toolbox with the host's Orca environment forwarded.
+# "toolbox run" does not carry the host environment into the container, so every
+# ORCA* variable is explicitly handed over with env(1).
+
+set -euo pipefail
+
+if [[ -f /run/.toolboxenv ]]; then
+    # Already inside the toolbox.
+    exec opencode "$@"
 fi
 
-exec nono run --silent --profile opencode-mise --allow-cwd -- opencode "$@"
+orca_env=()
+for name in ${!ORCA@}; do
+    orca_env+=("$name=${!name}")
+done
+
+if [[ ${#orca_env[@]} -eq 0 ]]; then
+    echo "opencode-orca: warning: no ORCA* variables found in this shell" >&2
+fi
+
+exec toolbox run -- env "${orca_env[@]}" opencode "$@"

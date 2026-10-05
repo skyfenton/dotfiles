@@ -24,18 +24,5 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
-# Activate mise (only if it's instaled and on PATH)
-if command -v mise >/dev/null 2>&1; then
-    eval "$(mise activate bash)"
-fi
-
 # Added by Toolbox App
 export PATH="$PATH:/var/home/sfenton/.local/share/JetBrains/Toolbox/scripts"
-
-# Sandbox opencode only if both srt and opencode exist
-if command -v nono >/dev/null 2>&1 && command -v opencode >/dev/null 2>&1; then
-    opencode() {
-        echo "Running opencode with nono sandbox..."
-        nono run --silent --profile opencode-mise --allow-cwd -- opencode "$@"
-    }
-fi

@@ -10,7 +10,8 @@
     "access": "readwrite"
   },
   "filesystem": {
-    "allow": ["~/.local/share/mise/installs/"],
+    "allow": [
+      "~/.local/share/mise/installs/"],
     "read": []
   }
 }

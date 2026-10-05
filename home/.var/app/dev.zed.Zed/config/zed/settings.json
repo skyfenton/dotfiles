@@ -17,6 +17,9 @@
   },
   "agent_servers": {
     "opencode": {
+      "args": [
+        "acp"
+      ],
       "type": "custom",
       "command": "opencode"
     }
@@ -24,6 +27,12 @@
   "diff_view_style": "split",
   "cli_default_open_behavior": "new_window",
   "terminal": {
+    "shell": {
+      "with_arguments": {
+        "program": "/usr/bin/toolbox",
+        "args": ["enter"]
+      }
+    },
     "dock": "left"
   },
   "use_podman": true,
