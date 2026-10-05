@@ -20,6 +20,12 @@
       "variants": []
     },
     {
+      "path": "home/.bashrc.d",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
       "path": "home/.config/nono/profiles",
       "autosave": true,
       "encrypt": false,

@@ -27,6 +27,7 @@ args = ["run", "--silent", "--profile", "opencode-mise", "--allow-cwd", "--", "o
 [dotfiles]
 "~/.bash_profile" = { mode = "track" }
 "~/.bashrc" = { mode = "track" }
+"~/.bashrc.d" = { mode = "track" }
 "~/.config/mise/config.toml" = { mode = "track" }
 "~/.config/nono/profiles" = { mode = "track" }
 "~/.config/srt/.opencode-srt-settings.json" = { mode = "track" }
