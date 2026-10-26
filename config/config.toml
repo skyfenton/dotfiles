@@ -8,15 +8,17 @@ cargo.binstall = true
 rust = "latest"
 cargo-binstall = "latest"
 watchexec = "latest"
-"npm:@anthropic-ai/sandbox-runtime" = "latest"
 node = "26"
 "github:burntsushi/ripgrep" = "latest"
 "github:astral-sh/uv" = "latest"
 "pypi:git+https://github.com/aws/aws-cli.git" = "v2"
 "github:nolabs-ai/nono" = "latest"
+"github:typst/typst" = "latest"
+"github:aaif-goose/goose" = "latest"
+"github:earendil-works/pi" = "latest"
 
 [tools."http:opencode"]
-version = "2.0.23"
+version = "2.0.28"
 version_order = "semver"
 url = "https://opencode.ai/files/bin/{version}/opencode-linux-x64.tar.gz"
 
