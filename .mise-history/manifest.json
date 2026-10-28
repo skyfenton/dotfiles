@@ -38,6 +38,12 @@
       "variants": []
     },
     {
+      "path": "home/.config/nono/profiles/pi-mise.json",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
       "path": "home/.config/opencode/skills",
       "autosave": true,
       "encrypt": false,

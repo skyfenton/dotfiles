@@ -26,6 +26,10 @@ url = "https://opencode.ai/files/bin/{version}/opencode-linux-x64.tar.gz"
 command = "nono"
 args = ["run", "--silent", "--profile", "opencode-mise", "--allow-cwd", "--", "opencode"]
 
+[wrappers.pi]
+command = "nono"
+args = ["run", "--silent", "--profile", "pi-mise", "--allow-cwd", "--", "pi"]
+
 [dotfiles]
 "~/.agents/skills" = { mode = "track" }
 "~/.bash_profile" = { mode = "track" }
@@ -33,6 +37,7 @@ args = ["run", "--silent", "--profile", "opencode-mise", "--allow-cwd", "--", "o
 "~/.bashrc.d" = { mode = "track" }
 "~/.config/mise/config.toml" = { mode = "track" }
 "~/.config/nono/profiles" = { mode = "track" }
+"~/.config/nono/profiles/pi-mise.json" = { mode = "track" }
 "~/.config/opencode/skills" = { mode = "track" }
 "~/.config/srt/.opencode-srt-settings.json" = { mode = "track" }
 "~/.local/bin/opencode" = { mode = "track" }
