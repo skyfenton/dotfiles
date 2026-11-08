@@ -11,7 +11,7 @@
   },
   "filesystem": {
     "allow": [
-      "~/.local/share/mise/installs/"],
+    "~/.local/share/mise/installs/", "/tmp/jiti"],
     "read": []
   }
 }
