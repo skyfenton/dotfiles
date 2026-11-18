@@ -1,0 +1,25 @@
+{
+  "$schema":"../nono-profile.schema.json",
+  "extends": [
+    "nolabs-ai/pi",
+    "opencode-credentials"
+  ],
+  "meta": {
+    "name": "pi-mise"
+  },
+  "filesystem": {
+    "allow": ["/tmp/pi"],
+    "read": [
+      "~/.local/share/mise/installs/github-earendil-works-pi/"
+    ]
+  },
+  "environment":{
+    "set_vars": {"TMPDIR": "/tmp/pi", "JITI_RESPECT_TMPDIR_ENV": "1"}
+  },
+  "network": {
+    "credentials": ["opencode_go"]
+  },
+  "workdir": {
+    "access": "readwrite"
+  }
+}
