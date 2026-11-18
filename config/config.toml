@@ -38,7 +38,6 @@ args = ["run", "--silent", "--profile", "pi-mise", "--allow-cwd", "--", "pi"]
 "~/.config/mise/config.toml" = { mode = "track" }
 "~/.config/nono/nono-profile.schema.json" = { mode = "track" }
 "~/.config/nono/profiles" = { mode = "track" }
-"~/.config/nono/profiles/oc-credentials.json" = { mode = "track" }
 "~/.config/opencode/skills" = { mode = "track" }
 "~/.config/srt/.opencode-srt-settings.json" = { mode = "track" }
 "~/.local/bin/opencode" = { mode = "track" }
