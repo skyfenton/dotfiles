@@ -1,17 +1,41 @@
 {
-  "extends": "nolabs-ai/pi",
+  "$schema":"../nono-profile.schema.json",
   "meta": {
     "name": "pi-mise"
   },
+  "extends": "nolabs-ai/pi",
   "groups": {
-    "include": []
+    "include": [],
+    "exclude": []
+  },
+  "commands": {
   },
   "workdir": {
     "access": "readwrite"
   },
   "filesystem": {
-    "allow": [
-    "~/.local/share/mise/installs/", "/tmp/jiti"],
-    "read": []
+    "allow": [],
+    "read": [],
+    "write": [],
+    "allow_file": [],
+    "read_file": ["~/.local/share/mise/installs/github-earendil-works-pi/global/pi"],
+    "write_file": [],
+    "deny": [],
+    "bypass_protection": [],
+    "suppress_save_prompt": []
+  },
+  "network": {
+    "block": false,
+    "allow_domain": [],
+    "credentials": [],
+    "open_port": [],
+    "listen_port": [],
+    "custom_credentials": {}
+  },
+  "env_credentials": {},
+  "hooks": {},
+  "rollback": {
+    "exclude_patterns": [],
+    "exclude_globs": []
   }
 }

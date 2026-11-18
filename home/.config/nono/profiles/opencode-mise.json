@@ -1,17 +1,41 @@
 {
-  "extends": "nolabs-ai/opencode",
+  "$schema":"../nono-profile.schema.json",
   "meta": {
     "name": "opencode-mise"
   },
+  "extends": "nolabs-ai/opencode",
   "groups": {
-    "include": []
+    "include": [],
+    "exclude": []
+  },
+  "commands": {
   },
   "workdir": {
     "access": "readwrite"
   },
   "filesystem": {
-    "allow": [
-      "~/.local/share/mise/installs/"],
-    "read": []
+    "allow": [],
+    "read": [],
+    "write": [],
+    "allow_file": [],
+    "read_file": ["~/.local/share/mise/installs/http-opencode/global/opencode"],
+    "write_file": [],
+    "deny": [],
+    "bypass_protection": [],
+    "suppress_save_prompt": []
+  },
+  "network": {
+    "block": false,
+    "allow_domain": [],
+    "credentials": [],
+    "open_port": [],
+    "listen_port": [],
+    "custom_credentials": {}
+  },
+  "env_credentials": {},
+  "hooks": {},
+  "rollback": {
+    "exclude_patterns": [],
+    "exclude_globs": []
   }
 }

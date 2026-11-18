@@ -36,6 +36,7 @@ args = ["run", "--silent", "--profile", "pi-mise", "--allow-cwd", "--", "pi"]
 "~/.bashrc" = { mode = "track" }
 "~/.bashrc.d" = { mode = "track" }
 "~/.config/mise/config.toml" = { mode = "track" }
+"~/.config/nono/nono-profile.schema.json" = { mode = "track" }
 "~/.config/nono/profiles" = { mode = "track" }
 "~/.config/nono/profiles/pi-mise.json" = { mode = "track" }
 "~/.config/opencode/skills" = { mode = "track" }

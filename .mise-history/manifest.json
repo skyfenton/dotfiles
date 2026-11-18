@@ -32,6 +32,12 @@
       "variants": []
     },
     {
+      "path": "home/.config/nono/nono-profile.schema.json",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
       "path": "home/.config/nono/profiles",
       "autosave": true,
       "encrypt": false,
