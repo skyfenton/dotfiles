@@ -39,7 +39,6 @@ args = ["run", "--silent", "--profile", "pi-mise", "--allow-cwd", "--", "pi"]
 "~/.config/nono/nono-profile.schema.json" = { mode = "track" }
 "~/.config/nono/profiles" = { mode = "track" }
 "~/.config/opencode/skills" = { mode = "track" }
-"~/.config/srt/.opencode-srt-settings.json" = { mode = "track" }
 "~/.local/bin/opencode" = { mode = "track" }
 "~/.var/app/dev.zed.Zed/config/zed" = { mode = "track" }
 
