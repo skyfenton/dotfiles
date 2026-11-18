@@ -44,6 +44,12 @@
       "variants": []
     },
     {
+      "path": "home/.config/nono/profiles/oc-credentials.json",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
       "path": "home/.config/nono/profiles/pi-mise.json",
       "autosave": true,
       "encrypt": false,
